@@ -12,10 +12,6 @@
     .container titulo, .container frase{
     display:none;
     }
-
- {@media screen and (min-width: 820px)
-    /*...propriedades css... */
- }
  @media screen and (min-width: 820px) {
 
     .container_titulo, .container_titulo--negrito {
@@ -25,12 +21,10 @@
     
     .container_titulo {
     
-    font-weigth: 400;
+    font-weight: 400;
     display: block;
     }
-    
     }
-
     @media screen and (min-width: 1024px) {
 
         .container_frase{
@@ -39,5 +33,4 @@
         display: block;
         
     }
-
 }
